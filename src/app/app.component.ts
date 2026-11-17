@@ -1,8 +1,8 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { ContainerTabelaComponent } from './container-tabela/container-tabela.component';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [ContainerTabelaComponent],
   selector: 'app-root',
   styleUrl: './app.component.css',
   templateUrl: './app.component.html',
