@@ -1,0 +1,100 @@
+.painel-container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 28px 32px;
+  background-color: #ffffff;
+  border: 1px solid #dbe5df;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(15, 35, 25, 0.08);
+  font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+}
+
+.cabecalho {
+  margin-bottom: 24px;
+  padding-left: 14px;
+  border-left: 4px solid #1f3b2c;
+}
+
+.cabecalho h2 {
+  margin: 0 0 6px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #162a20;
+}
+
+.subtitulo {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #52645a;
+}
+
+.tabela-wrapper {
+  overflow-x: auto;
+  border: 1px solid #dbe3de;
+  border-radius: 10px;
+}
+
+.tabela-sensores {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.94rem;
+}
+
+.tabela-sensores thead th {
+  background-color: #1f3b2c;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 14px 16px;
+}
+
+.tabela-sensores tbody td {
+  padding: 14px 16px;
+  border-top: 1px solid #e6ece8;
+  color: #1f2937;
+}
+
+.tabela-sensores tbody tr:nth-child(even) {
+  background-color: #f7faf8;
+}
+
+.tabela-sensores tbody tr:hover {
+  background-color: #eef5f0;
+  transition: background-color 0.15s ease;
+}
+
+.col-indice {
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.badge-ideal {
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+}
+
+.badge-alerta {
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+.badge-critico {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
