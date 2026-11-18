@@ -4,8 +4,8 @@ Projeto Angular desenvolvido para a disciplina **Prática de Laboratório — De
 
 ## Identificação do Aluno
 
-- **Nome completo:** *(a preencher)*
-- **Matrícula UniRV:** *(a preencher)*
+- **Nome completo:** Guilherme Henrique Ferreira Silva
+- **Matrícula UniRV:** 24107SFT029
 - **Professor:** Me. Sergio Souza Novak
 
 ## Tecnologias Utilizadas
@@ -53,4 +53,6 @@ npm run build
 
 ## Captura de Tela
 
-*(Captura de tela da tabela renderizada em `http://localhost:4200` a ser adicionada em seguida.)*
+Tabela de leituras de sensores renderizada em `http://localhost:4200`:
+
+![Painel de Monitoramento IoT - Sensores de Solo](docs/screenshot-sensores.png)
